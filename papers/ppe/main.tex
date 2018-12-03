@@ -1,0 +1,56 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{fullpage} % changes the margin
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc} % hyphenation of words
+\usepackage{lmodern}
+\usepackage[babel, style=swiss]{csquotes} % use guillemets as quotation mark (with \enquote{})
+\usepackage[
+    pdftex,                             % Use pdfTeX backend
+    plainpages         = false,         % No failures "same page(i)"
+    hypertexnames      = true,          % Use guessable hypertextnames instead of a counter
+    pdfpagelabels      = true,          % Set PDF page labels
+    backref            = false,         % No index backreference
+    bookmarks          = true,          % Show bookmarks when opening the document
+    bookmarksopen      = true,          % Opens the bar on the left side
+    bookmarksopenlevel = 0,             % Depth of opened bookmarks
+]{hyperref}
+\usepackage{setspace}
+%\singlespacing
+\onehalfspacing
+%\doublespacing
+%\setstretch{1.1}
+\usepackage{parskip}
+
+% title and author
+\title{Personal Privacy, Police Investigation, and Encryption}
+\author{Marc Christen  \\
+	Bern University of Applied Sciences \\
+	Module BTI7545-18/19 - Cybercrime \\
+	Tutor: Prof. Dr. Bruce Nikkel \\
+}
+\date{\today}
+\begin{document}
+\maketitle
+\noindent
+\section*{Personal Privacy and Encryption}
+The right to privacy is considered a human right and is anchored in all modern democracies \cite{ECHR}. Human rights apply in virtual, digital space as well as in real life. What does privacy actually mean? Well, that depends a lot on who you ask that question to. If you would ask the Sentinelese from the North Sentinel Island in the Bay of Bengal, they would probably say it's their right to seperate (isolate) themselves from the outside world. In the digital age where personal information is recorded, collected and misused virtually everywhere, I would personally say it is my right to protect my personal information. This includes my private web-surfing behaviour as well as my private data or communication over various channels such as e-mail, telephone or instant messaging. Edward Snowden made a fitting quote in this context: \enquote{\textit{I do not want to live in a world where everything I do and say is recorded. That is not something I am willing to support or live under.} \cite{SNOWDEN}}  
+\par Strong encryption offers a way to secure our data and communication against eavesdroppers like criminals, totalitarian governments or other threats.
+For many individuals it is the only way to secure information in a digitally highly connected and monitored world. Journalists can securely communicate with their sources or citizens of a repressive country can share their experiences and observations without getting arrested.
+Encryption also holds risks and sometimes you are weighing yourself in false security. For example, if encryption is used incorrectly (or is incorrectly implemented) which can lead to data breaches.
+\par In the history of the Internet there have been several data breaches and personal privacy scandals. One of the worst Internet privacy scandal was made by Sony BMG. They ran into a major privacy flap in fall 2005 because of the anti-piracy measures called XCP that it added to music CDs. When a customer played one of these CDs on a Windows PC, the CD installed hidden rootkit software onto the PC that communicated the CD being played and the IP address of the PC back to Sony. This so-called spyware also created vulnerabilities on PCs for worms or viruses to exploit. The U.S. Federal Trade Commission required Sony to pay \$150 to any consumer whose PC was damaged by the software as part of a settlement for violating federal law \cite{SONY}.
+
+However, the right of privacy can be restricted because of the public interest in a person or for law enforcement purposes as we can see in the next section. 
+\section*{Police Investigation}
+
+\section*{Conflict of Interests}
+
+\section*{Possible Solutions}
+
+\begin{thebibliography}{9}
+    \bibitem{ECHR} European Court of Human Rights, 1950 \emph{European Convention of Human Rights: Article 8  privacy}. Available online: \href{https://www.coe.int/en/web/human-rights-convention/private-life}{https://www.coe.int/en/web/human-rights-convention/private-life}yy
+    \bibitem{SNOWDEN} The Guardian, 10. June 2013 \emph{Edward Snowden, NSA files source: If they want to get you, in time they will}. Available online: \href{https://www.theguardian.com/world/2013/jun/09/nsa-whistleblower-edward-snowden-why}{https://www.theguardian.com/world/2013/jun/09/nsa-whistleblower-edward-snowden-why}
+    \bibitem{SONY} Dirk Martin Knop, 1. November 2005 \emph{Sony BMG's copy protection with rootkit features}. Available online: \href{https://www.heise.de/newsticker/meldung/Sony-BMGs-Kopierschutz-mit-Rootkit-Funktionen-143366.html}{https://www.heise.de/newsticker/meldung/Sony-BMGs-Kopierschutz-mit-Rootkit-Funktionen-143366.html}
+\end{thebibliography}
+
+\end{document}
